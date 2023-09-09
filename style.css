@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@600&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 72px 240px 1fr 232px;
+    background-color: gray;
+    grid-template-rows: 100vh;
+
+}
+
+.left {
+
+    background-color: #1e1f22;
+
+}
+
+.l-left {
+
+    background-color: #2b2d31;
+
+}
+
+.middle {
+
+    background-color: #313338;
+
+}
+
+.right {
+
+    background-color: #2b2d31;
+}
+
+.servername {
+    border: 1px solid black;
+    height: 48px;
+}
+
+.serverch {
+    height: calc(100vh - 96px);
+    border: 1px solid black;
+
+}
+
+.username {
+    height: 48px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.middle-top {
+    height: 48px;
+    border: 1px solid black;
+}
+
+.middle-middle {
+    height: calc(100vh - 116px);
+    border: 1px solid black;
+}
+
+.middle-bottom {
+    height: 68px;
+    border: 1px solid black;
+
+}
+
+.right-top {
+    border: 1px solid black;
+    height: 48px;
+}
+
+.left a {
+    height: 48px;
+    width: 48px;
+    background-color: #2b2d31;
+    border-radius: 50%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+
+}
+
+.servers a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+
+.servers {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.servers a {
+    text-decoration: none;
+
+}
+
+.servers {
+    gap: 12px;
+}
+
+.servers i {
+    transform: scale(1.88);
+
+}
+
+.servername {
+    color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.serversurname {
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 210px;
+}
+
+.textchat {
+    font-size: 12px;
+    color: #949BA4;
+}
+
+.ch1 .bx {
+    color: #949BA4;
+    transform: scale(0.5);
+}
+
+.ch1-left {
+    display: flex;
+    align-items: center;
+}
+
+.ch1 {
+    display: flex;
+    justify-content: space-between
+}
