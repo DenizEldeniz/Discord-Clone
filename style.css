@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@600&family=Sacramento&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
 
 * {
     margin: 0;
@@ -41,6 +42,12 @@
 .servername {
     border: 1px solid black;
     height: 48px;
+    color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .serverch {
@@ -119,15 +126,6 @@
 
 }
 
-.servername {
-    color: white;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .serversurname {
     font-size: 16px;
@@ -135,7 +133,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 210px;
+    width: 190px;
 }
 
 .textchat {
@@ -151,9 +149,235 @@
 .ch1-left {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .ch1 {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+
+}
+
+.ch2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.ch2-left i {
+    font-size: 23px;
+    color: #949BA4;
+
+}
+
+.textchat1 {
+    color: #949BA4;
+    font-size: 16px;
+}
+
+.ch2-right .bx {
+    color: #949BA4;
+    font-size: 16px;
+}
+
+.ch2-left {
+    font-size: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    gap: 5px;
+
+}
+
+.ch2-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    right: 9px;
+    position: absolute;
+}
+
+/* aa */
+.ch3 .bx {
+    color: #949BA4;
+    transform: scale(0.5);
+}
+
+.ch3-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ch3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ch4 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.ch4-left i {
+    font-size: 23px;
+    color: #949BA4;
+
+}
+
+.textchat1 {
+    color: #949BA4;
+    font-size: 16px;
+}
+
+.ch4-right .bx {
+    color: #949BA4;
+    font-size: 16px;
+}
+
+.ch4-left {
+    font-size: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    gap: 5px;
+
+}
+
+.ch4-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    right: 9px;
+    position: absolute;
+}
+
+.ch4-left .bxs-volume-full {
+    font-size: 16px !important;
+}
+
+.ch4 {
+    position: absolute;
+    top: 116px;
+}
+
+.ch3 {
+    position: absolute;
+    top: 77px;
+}
+
+.serverch {
+    position: relative;
+}
+
+.username-left-left img {
+    height: 35px;
+    width: auto;
+}
+
+.username-left {
+    display: flex;
+    gap: 10px;
+}
+
+.username-left-right h1 {
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+}
+
+.username-left-right p {
+    font-size: 11px;
+    color: #949BA4;
+    font-weight: 100;
+}
+
+.username-right {
+    display: flex;
+    gap: 16px;
+
+    align-items: center;
+}
+
+.username {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #232428;
+
+}
+
+.username-right i {
+    transform: scale(1.38);
+    color: #949BA4;
+}
+
+.username-left-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username-left-right {
+    display: flex;
+    align-items: center;
+}
+
+.middle-left i {
+    color: #949BA4;
+    transform: scale(1.8);
+}
+
+.middle-left p {
+    color: white;
+}
+
+.middle-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.middle-right i {
+    transform: scale(1.46);
+    color: #949BA4;
+
+}
+
+.mid {
+    display: flex;
+    gap: 10px;
+    margin-left: 18px;
+    align-items: center;
+
+}
+
+.mid .bx-hash {
+    text-align: center;
+}
+
+.middle-right {
+    display: flex;
+    gap: 25px;
+    margin-right: 16px;
+}
+
+.middle-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-bottom-right {
+    display: flex;
+    gap: 25px;
+    margin-right: 16px;
 }
