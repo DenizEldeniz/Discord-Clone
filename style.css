@@ -44,7 +44,7 @@
 
 
 .servername {
-    border: 1px solid black;
+    border-bottom: 1px solid #1b1b1d;
     height: 48px;
     color: white;
 
@@ -56,7 +56,7 @@
 
 .serverch {
     height: calc(100vh - 96px);
-    border: 1px solid black;
+    
 
 }
 
@@ -87,27 +87,27 @@
 
 .username {
     height: 48px;
-    border: 1px solid rgb(0, 0, 0);
+    
 }
 
 .servers .middle-top {
     height: 48px;
-    border: 1px solid black;
+   
 }
 
 .middle-middle {
     height: calc(100vh - 116px);
-    border: 1px solid black;
+    border-top: 1px solid #272728;;
 }
 
 .middle-bottom {
     height: 68px;
-    border: 1px solid black;
+    
 
 }
 
 .right-top {
-    border: 1px solid black;
+    
     height: 48px;
 }
 
@@ -503,8 +503,12 @@
     outline: none;
     background-color: #1e1f22;
     padding-left: 7px;
+    transition: 0.2s all ease-in-out;
+    color: white;
 }
-
+.rtsearch::placeholder{
+    color:#949BA4;
+}
 .rtinput {
     display: flex;
     align-items: center;
@@ -516,5 +520,56 @@
 .iler {
     color: #949BA4;
     transform: scale(1.6);
+    margin-right: 10px;
+
+}
+
+.right-middle img {
+    height: 34px;
+    width: 34px;
+}
+
+.right-middle h1 {
+    font-size: 13px;
+    color: #949BA4;
+    font-weight: 100;
+}
+
+.hürremm {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 8px 0px;
+}
+
+.hürremm p {
+    color: #949BA4;
+    font-weight: 100;
+}
+
+.bxs-crown {
+    color: orange;
+}
+
+.zeus {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-middle{
+padding: 15px 0 0 20px;
+
+}
+.rtinput{
+    position: relative;
+}
+.rtinput i{
+    position: absolute;
+    right: 7px;
+    color: #949BA4;
+}
+.rtsearch:focus{
+width: 160px;
 
 }
